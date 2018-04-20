@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<hosts>
+	<host>
+		<name>c2811</name>
+		<ip>192.168.1.1</ip>
+		<command>check_ping</command>
+	</host>
+	<host>
+		<name>server-dhcp</name>
+		<ip>192.168.1.2</ip>
+		<command>check_ping</command>
+	</host>
+	<host>
+		<name>server-mail</name>
+		<ip>192.168.1.3</ip>
+		<command>check_ping</command>
+	</host>
+</hosts>

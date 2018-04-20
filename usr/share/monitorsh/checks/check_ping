@@ -1,0 +1,4 @@
+#!/bin/sh
+CHECK="Ping host $1"
+
+ping -c2 > /dev/null $1 && echo "PING: OK" || echo "PING: CRITICAL"

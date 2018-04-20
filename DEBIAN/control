@@ -1,0 +1,5 @@
+Package: monitorsh
+Architecture: all
+Depends: nmap
+Description: Monitorsh it is bash script  monitoring system
+
